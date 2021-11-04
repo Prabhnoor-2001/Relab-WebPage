@@ -39,7 +39,7 @@ function makeid() {
       characters.charAt(Math.floor(Math.random() * charactersLength))
     );
   }
-  const dateNumber = Date.now().toString().split(""); // looked ugly with all numbers at the back so converted to ascii
+  const dateNumber = Date.now().toString().split(""); // looked ugly with all numbers at the back so mixed them.
   let mixedCode = [];
   result.map(function (e, i) {
     if (dateNumber[i] === undefined) {
