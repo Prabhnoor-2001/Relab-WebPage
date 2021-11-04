@@ -1,0 +1,179 @@
+body {
+  font-family: Roboto;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.img-fluid {
+  height: 50px;
+  margin: 5px;
+}
+.navbar-brand:link {
+  margin-right: 10px;
+  color: rgb(87, 178, 174, 1);
+}
+.nav-link:link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black !important;
+}
+.center-block {
+  width: 474px;
+  height: 444px;
+  left: 483px;
+  top: 427px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.coin-pictures {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 15%;
+  max-width: 80%;
+}
+.login-button {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgba(87, 178, 174, 1);
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 10px;
+}
+.free-trial-button {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgba(255, 12, 125, 1);
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 10px;
+}
+a.free-trial-button:hover {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgba(255, 12, 125, 1);
+}
+a.login-button:hover {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgba(87, 178, 174, 1);
+}
+.message-to-user {
+  background-color: rgba(217, 253, 251, 1);
+}
+.offer-text {
+  width: 20%;
+  margin: 3rem;
+  text-align: center;
+  font-size: 24px;
+}
+.code-readonly {
+  background-color: rgba(228, 236, 243, 1);
+  width: 1071px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.input-field {
+  width: 50%;
+  margin-bottom: 5%;
+}
+.coin-paragraph {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+.form-control {
+  background-color: white !important;
+}
+.copy-button {
+  background-color: white;
+  font-weight: bold;
+}
+p {
+  text-align: center;
+}
+.FAQs {
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 35.16px;
+  font-style: normal;
+  background-color: rgba(255, 245, 245, 1);
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.questions {
+  margin-left: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 20px;
+}
+.answers {
+  font-size: 16px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  margin-top: 3%;
+  padding: 0;
+}
+.link-to-pages {
+  margin-bottom: 5%;
+}
+.logo-social-media {
+  max-width: 35px;
+  vertical-align: -webkit-baseline-middle;
+  margin-left: 5%;
+}
+.footer-notes {
+  margin-left: 8%;
+  max-width: max-content;
+}
+.footer-links:link {
+  color: black;
+}
+.footer-small {
+  margin-left: 15%;
+  max-width: fit-content;
+}
+.page-links:link,
+.page-links:visited {
+  text-decoration: none;
+  color: black;
+}
+.footer-logos {
+  max-width: fit-content;
+}
+.copied-button,
+.copied-button:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: rgba(255, 12, 125, 1);
+  color: white;
+  font-weight: bold;
+}
+.break-collapse {
+  display: block;
+  content: " ";
+  margin-top: 3%;
+}

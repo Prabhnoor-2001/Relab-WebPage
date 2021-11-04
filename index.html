@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <title>Relab - WebPage</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white my-2 ms-3">
+      <div class="container-fluid">
+        <img class="img-fluid" src="public/logo.png" alt="RelabLogo" />
+        <a class="navbar-brand" href="#">Relab</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link link-dark" href=""><b>Pricing</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""><b>Pricing</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""><b>Pricing</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""><b>中文</b></a>
+            </li>
+          </ul>
+          <div class="form-inline my-2 my-0 mx-2">
+            <a href="/" class="free-trial-button">Free Trial</a>
+          </div>
+          <br class="break-collapse" />
+          <div class="form-inline my-2 my-0 me-5 ms-3 mt-20">
+            <a href="/" class="login-button">Login</a>
+          </div>
+        </div>
+      </div>
+      <!-- making these links rather than button will make it easier to work with-->
+    </nav>
+    <section class="heading">
+      <h3 class="d-flex justify-content-center mt-lg-5" style="font-size: 36px">
+        Share the Relab love!
+      </h3>
+      <p class="d-flex justify-content-center mt-lg-4" style="font-size: 24px">
+        Good things deserve to be shared, invite a friend to Relab and you'll
+        both recieve one month FREE!
+      </p>
+      <img
+        class="center-block"
+        src="public/familia.png"
+        alt="people having fun"
+      />
+    </section>
+    <article class="message-to-user">
+      <div class="d-flex justify-content-center">
+        <p class="offer-text">
+          No tricks or messy fine print. It's so, so simple. Invite your
+          property mates to Relab and if they subscribe to a paid monthly or
+          yearly plan, we'll credit your Relab account with one month FREE.
+        </p>
+      </div>
+    </article>
+    <div class="d-flex justify-content-center">
+      <div class="p-5 code-readonly">
+        <p style="font-size: 24px">Your unique referral code!</p>
+        <div class="d-flex justify-content-center">
+          <div class="form-group mx-5 d-flex input-group input-field">
+            <input
+              class="form-control"
+              type="text"
+              id="referral-code"
+              name="referral-code"
+              value="code"
+              readonly
+            />
+            <button
+              type="button"
+              class="btn btn-light input-group-text copy-button"
+              id="copy-button"
+            >
+              Copy link
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-sm">
+          <img class="coin-pictures" src="public/coin1.png" alt="first" />
+          <p class="d-flex justify-content-center coin-paragraph">
+            Got lots of mates? Reder as many friends as you like! Each time one
+            of your friend upgrades to a paid account, we'll credit you one
+            month FREE!
+          </p>
+        </div>
+        <div class="col-sm text-center">
+          <img class="coin-pictures" src="public/coin2.png" alt="first" />
+          <p class="d-flex justify-content-center coin-paragraph">
+            To make the deal super sweet for you AND you friend, They'll recieve
+            one month free as well as you &#128151;
+          </p>
+        </div>
+        <div class="col-sm">
+          <img class="coin-pictures" src="public/coin3.png" alt="first" />
+          <p class="d-flex justify-content-center coin-paragraph">
+            Invite your friends by email, social post or text. So long as they
+            use your unique link, you're both in for a treat.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <article class="FAQs">
+      <div class="questions">
+        <h3 style="font-size: 30px; font-weight: bold">FAQ</h3>
+
+        <b class="question"> How many friends can I invite?</b><br />
+        <small class="answers">
+          The sky's the limit! Popular? go ahead and send out as many invites as
+          you like! So long as your friends use YOUR unique link, you'll get the
+          treats. </small
+        ><br />
+        <br />
+        <b class="question">
+          How does my friend get their one month free when they activate a paid
+          plan?</b
+        ><br />
+        <small class="answers">
+          So long as they have used your link, we'll know they are a referral
+          and their account will be automatically credited. </small
+        ><br /><br />
+        <b class="question">
+          Who is eligible to use the refer a friend program?</b
+        ><br />
+        <small class="answers">
+          All paid Relab subscribers are eligible to use out refer a friend
+          program. </small
+        ><br /><br />
+      </div>
+    </article>
+
+    <div class="container link-to-pages">
+      <div class="row d-flex justify-content-start">
+        <div class="col-sm">
+          <ul>
+            <b>Company</b>
+            <li><a class="page-links" href="">About us </a></li>
+            <li><a class="page-links" href="">Contact</a></li>
+            <li><a class="page-links" href="">Pricing</a></li>
+            <li><a class="page-links" href="">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-sm">
+          <ul>
+            <b>Features</b>
+            <li><a class="page-links" href="">Feature 1</a></li>
+            <li><a class="page-links" href="">Feature 2</a></li>
+            <li><a class="page-links" href="">Feature 2</a></li>
+            <li><a class="page-links" href="">Feature 2</a></li>
+          </ul>
+        </div>
+        <div class="col-sm">
+          <ul>
+            <b>Blog</b>
+            <li><a class="page-links" href="">Relab</a></li>
+            <li><a class="page-links" href="">Product</a></li>
+            <li><a class="page-links" href="">Property Collective</a></li>
+            <li><a class="page-links" href="">Customer Stories</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer class="footer d-flex my-5">
+      <div class="d-inline-block container footer-notes">
+        <a href="#" class="me-3 footer-links"> Terms </a>
+        <a href="#" class="me-3 footer-links"> Privacy </a>
+      </div>
+      <div class="d-inline-block container">
+        <small class="footer-small">
+          &#169; copyright &#169; 2018-2020 Property Portal Limited RELAB.co.nz
+          All Right Reserved</small
+        >
+      </div>
+      <div
+        class="
+          d-inline-block
+          container
+          d-flex
+          justify-content-end
+          me-5
+          footer-logos
+        "
+      >
+        <a href="#" class="icoFacebook" title="Facebook">
+          <img
+            class="logo-social-media mx-3"
+            src="public/fb.png"
+            alt="facebookLogo"
+        /></a>
+        <a href="#" class="icoInstagram" title="Instagram">
+          <img
+            class="logo-social-media mx-3"
+            src="public/ig.png"
+            alt="instagramLogo"
+        /></a>
+        <a href="#" class="icoTwitter" title="Twitter">
+          <img
+            class="logo-social-media mx-3"
+            src="public/twitter.png"
+            alt="facebookLogo"
+        /></a>
+        <a href="#" class="icoLinkedin" title="Linkedin">
+          <img
+            class="logo-social-media mx-3"
+            src="public/linkedIN.PNG"
+            alt="facebookLogo"
+        /></a>
+        <a href="#" class="icoYouTube" title="YouTube">
+          <img
+            class="logo-social-media mx-3"
+            src="public/yt.png"
+            alt="youtubeLogo"
+        /></a>
+      </div>
+    </footer>
+    <script src="functions.js"></script>
+  </body>
+</html>
